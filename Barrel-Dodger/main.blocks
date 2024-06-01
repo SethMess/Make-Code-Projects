@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="gTXv3cs!W7^p]`g6^hvW">mySprite</variable><variable type="KIND_SpriteKind" id="Y)Q@^yq$?SIz?cdfMG_=">Player</variable><variable type="KIND_SpriteKind" id=";rFnY,rKxe}$Q$G,;4La">Projectile</variable><variable type="KIND_SpriteKind" id="aQ7iQ-v~}}SRR|pygXY1">Food</variable><variable type="KIND_SpriteKind" id="kC*]O+T#z^bO.d@EZ%Pd">Enemy</variable></variables><block type="pxt-on-start" x="0" y="0"><statement name="HANDLER"><block type="tilemap_editor"><field name="tilemap">tilemap`level5`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level5"}}</data><next><block type="variables_set"><field name="VAR" id="gTXv3cs!W7^p]`g6^hvW">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . 5 . 5 . . . . . . . 
+. . . . . f 5 5 5 f . . . . . . 
+. . . . f 6 5 5 2 6 f . . . . . 
+. . . f 6 6 1 6 6 6 6 f . . . . 
+. . . f 6 1 6 6 6 6 6 f . . . . 
+. . . f 1 6 6 6 d f d f . . . . 
+. . f f 6 6 6 6 d f d f . . . . 
+. f 6 f 6 6 6 d d 3 d f . . . . 
+. . f f 6 f f d d d f . . . . . 
+. f 6 6 f f 3 3 f f . . . . . . 
+. . f f f d d 3 3 5 f . . . . . 
+. . . f d d f 3 3 3 f . . . . . 
+. . . . f f f 5 3 f . . . . . . 
+. . . . . f 3 3 3 3 f . . . . . 
+. . . . . f f f f f . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"L?mvSXv8[0{VsL;EP^b{"}}</data></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="mapplaceontile"><value name="sprite"><block type="variables_get"><field name="VAR" id="gTXv3cs!W7^p]`g6^hvW">mySprite</field></block></value><value name="loc"><shadow type="mapgettile"><value name="col"><shadow type="math_number"><field name="NUM">1</field></shadow></value><value name="row"><shadow type="math_number"><field name="NUM">5</field></shadow></value></shadow></value></block></next></block></next></block></statement></block><block type="keyonevent" x="650" y="30"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field></block></xml>

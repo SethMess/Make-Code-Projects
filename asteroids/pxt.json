@@ -1,0 +1,14 @@
+{
+    "name": "asteroids",
+    "description": "",
+    "dependencies": {
+        "device": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json"
+    ],
+    "preferredEditor": "blocksprj"
+}
